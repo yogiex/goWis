@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>sppk</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.0/dist/leaflet.css" /> <!-- import leafet css-->
+<link rel="stylesheet" href="assets/css/leaflet-search.css" /> <!-- import control search css-->
+<link rel="stylesheet" href="assets/css/style.css" /> <!-- import style-->
+<link rel="stylesheet" href="assets/css/leaflet-routing-machine.css" /> <!-- import lrm css-->
+</head>
+
+<body>
+
+<div id="map" class="map">
+<div class="leaflet-top leaflet-right"><!-- import manual untuk routing -->
+	<div class="leaflet-routing-container leaflet-bar leaflet-control">
+		<div class="leaflet-routing-geocoders ">
+			<div class="leaflet-routing-geocoder"><input class="" placeholder="Start"><span class="leaflet-routing-remove-waypoint"></span></div>
+				<div class="leaflet-routing-geocoder"><input class="" placeholder="End"><span class="leaflet-routing-remove-waypoint"></span></div>
+				<button class="leaflet-routing-add-waypoint " type="button"></button><button class="leaflet-routing-reverse-waypoints" type="button"></button></div>
+					<div class="leaflet-routing-alternatives-container"></div></div>
+	</div>
+</div>
+<div id="post-it">
+<b>Search values:</b><br />
+klik pada marker aja buat lebih lanjut
+</div>
+<script src="https://unpkg.com/leaflet@1.3.0/dist/leaflet.js"></script> <!-- import leaflet js-->
+<script src="assets/js/leaflet-search.js"></script> <!-- import search control-->
+<script src="assets/js/wisata.js"></script> <!--import data marker-->
+<script src="assets/js/index.js"></script> <!-- import peta-->
+<script scr="assets/js/leaflet-routing-machine.js"></script> <!-- import LRM -->
+<script src="assets/js/route.js"></script> <!-- anggap saja import rute-->
+
+<div id="copy"><a href="http://labs.easyblog.it/">Labs</a> &bull; <a rel="author" href="http://labs.easyblog.it/stefano-cudini/">Stefano Cudini</a></div>
+
+<script type="text/javascript" src="/labs-common.js"></script>
+
+</body>
+</html>
